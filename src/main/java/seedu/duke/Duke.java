@@ -4,6 +4,8 @@ import seedu.duke.tasks.TaskList;
 import seedu.duke.userinterface.CliUserInterface;
 
 public class Duke {
+    private static final TaskList tasksList = new TaskList();
+    public static boolean notQuit = true;
 
     /**
      * Main entry-point for the java.duke.Duke application.
